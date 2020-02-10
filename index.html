@@ -1,44 +1,46 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <title>Google</title>
-    </head>
+<head>
+  <title>Google</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    <body>
-        <header>
-            <div>
-                <p>About</p>
-                <p>Store</p>
-            </div>
-            <div>
-                <p>Gmail</p>
-                <p>Images</p>
-                <img src="#" id="apps-icon">
-                <img src="#" id="user-icon">
-            </div>
-        </header>
-        
-        <div class="content" id="main">
-            <img src="#" id="Google-Icon">
-            <form>
-                <div id="search-bar"></div>
-                <div id="search-button"></div>
-            </form>
-        </div>
+<body>
+  <header>
+    <div id="header-left">
+      <p>About</p>
+      <p>Store</p>
+    </div>
+    <div id="header-right">
+      <p>Gmail</p>
+      <p>Images</p>
+    </div>
+  </header>
 
-        <footer>
-            <div id="footer-links-left">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
-            </div>
-            <div id="footer-links-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
-        </footer>
-    </body>
+  <div class="content" id="main">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="Google-Icon">
+    <form for="search-bar">
+      <input id="search-bar" maxlength="2048" type="search">
+      <div id="buttons">
+        <button id="search-button" type="button">Google Search</button>
+        <button id="lucky-button" type="button">I'm Feeling Lucky</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="footer">
+    <div id="footer-links-left">
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search works</a>
+    </div>
+    <div id="footer-links-right">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </div>
+  </div>
+</body>
 
 </html>
